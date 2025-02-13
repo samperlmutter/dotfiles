@@ -1,0 +1,17 @@
+set sneak
+set relativenumber
+set number
+set clipboard+=unnamed
+set scrolloff=5
+set incsearch
+set ignorecase
+
+Plug 'machakann/vim-highlightedyank'
+
+let mapleader = ' '
+
+map <Leader>b <Action>(ToggleLineBreakpoint)
+map <Leader>o <Action>(OptimizeImports)
+map <Leader>rn <Action>(RenameElement)
+map <Leader>jd <Action>(QuickJavaDoc)
+map <Leader>h <Action>(ShowHoverInfo)
