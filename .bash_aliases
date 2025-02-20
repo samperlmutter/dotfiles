@@ -1,0 +1,15 @@
+alias python=python3
+alias pip=pip3
+alias mvdk='osascript ~/dev/apple/applescripts/move-dock.scpt'
+alias vi='nvim'
+alias vim='nvim'
+alias newsh='exec $SHELL'
+alias gs='git status'
+alias gch='git checkout'
+alias gc='git commit'
+alias gfc='git fetch && git checkout'
+alias gcm='git commit -m'
+alias ga='git add'
+alias gps='git push'
+alias gpl='git pull'
+alias ls='ls -a'
